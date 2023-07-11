@@ -1,8 +1,8 @@
 import type { APIContext } from 'astro';
-import { createTokenList } from '../utils';
+import { createTokenList } from '../../utils';
 
-const records = import.meta.glob('../tokens/v0.1.0.ts')
-const data = await records['../tokens/v0.1.0.ts']() as any
+const records = import.meta.glob('../../tokens/v0.1.0.ts')
+const data = await records['../../tokens/v0.1.0.ts']() as any
 
 export async function get(context: APIContext) {
   const tokenList = createTokenList({
