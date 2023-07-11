@@ -12,7 +12,7 @@ const dataFunctions = {
 }
 
 export const get: APIRoute = async (context) => {
-  const data = dataFunctions[context.params.version]
+  const data = await dataFunctions[context.params.version]()
 
   const tokenList = createTokenListRaw({
     title: data.title,
