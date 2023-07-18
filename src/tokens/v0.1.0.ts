@@ -54,7 +54,7 @@ export const tokens: TokenList['tokens'] = [
         "chainId": 84531,
         "symbol": "USDT",
         "decimals": 18,
-        "mintCap": 18,
+        "mintCap": 2000,
         "address": "0xf0107E4D99a2b0753132ebb607B9d339ECDfFe64",
         "logoURI": "/images/currencies/icons/default/usdt.svg"
     },
