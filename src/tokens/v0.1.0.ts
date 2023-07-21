@@ -31,7 +31,7 @@ export const tokens: TokenList['tokens'] = [
         "symbol": "AS",
         "decimals": 18,
         "address": "0x250543c48f6d5fF9000c726Eed17f9AD3ED2712e",
-        "logoURI": "?.svg"
+        "logoURI": "/images/currencies/icons/default/as.svg"
     },
     {
         "name": "Neptune Mutual",
