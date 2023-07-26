@@ -750,7 +750,7 @@ export const tokens: TokenList['tokens'] = [
     {
         "name": "Atlas Swap",
         "chainId": 4002,
-        "symbol": "AS",
+        "symbol": "AT",
         "decimals": 18,
         "address": "0xBB2ae3942716756CF8948F3D141c78c6806E502b",
         "logoURI": "/images/currencies/icons/default/as.svg"
