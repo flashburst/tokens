@@ -771,5 +771,85 @@ export const tokens: TokenList['tokens'] = [
         "mintCap": 2000,
         "address": "0xA36f4bD047078881565e25433AA363DC1E1cBa9d",
         "logoURI": "/images/currencies/icons/default/usdt.svg"
+    },
+    {
+        "name": "1Inch",
+        "chainId": 4002,
+        "symbol": "1INCH",
+        "decimals": 18,
+        "address": "0xd533f3D4e80C54572B8E319d7800ed6F35e9DBee",
+        "logoURI": "/images/currencies/icons/default/1inch.svg"
+    },
+    {
+        "name": "AaveToken",
+        "chainId": 4002,
+        "symbol": "AAVE",
+        "decimals": 18,
+        "address": "0xf91265684F9a6C162CBC1a17815D57B884d4A556",
+        "logoURI": "/images/currencies/icons/default/aave.svg"
+    },
+    {
+        "name": "Amp",
+        "chainId": 4002,
+        "symbol": "AMP",
+        "decimals": 18,
+        "address": "0x1bC28980baE04865877a0b79EF80aACa94D3ee48",
+        "logoURI": "/images/currencies/icons/default/amp.svg"
+    },
+    {
+        "name": "Balancer",
+        "chainId": 4002,
+        "symbol": "BAL",
+        "decimals": 18,
+        "address": "0x7727AA90A40e9778B25Ddb79DF251F5ac4A3f708",
+        "logoURI": "/images/currencies/icons/default/bal.svg"
+    },
+    {
+        "name": "BasicAttentionToken",
+        "chainId": 4002,
+        "symbol": "BAT",
+        "decimals": 18,
+        "address": "0x20532a15FA9F35AAB885256800464A5fE62483CB",
+        "logoURI": "/images/currencies/icons/default/bat.svg"
+    },
+    {
+        "name": "Bancor",
+        "chainId": 4002,
+        "symbol": "BNT",
+        "decimals": 18,
+        "address": "0xCaFc9150c28cB8B700CDd12ABb7aB24b6545dac8",
+        "logoURI": "/images/currencies/icons/default/bnt.svg"
+    },
+    {
+        "name": "Compound",
+        "chainId": 4002,
+        "symbol": "COMP",
+        "decimals": 18,
+        "address": "0x07b58C314f63b9e5d839B6734daaF58022061Ef2",
+        "logoURI": "/images/currencies/icons/default/comp.svg"
+    },
+    {
+        "name": "CurveDAOToken",
+        "chainId": 4002,
+        "symbol": "CRV",
+        "decimals": 18,
+        "address": "0x46ce01e8ddb24872d6D7568a3e270b8c43f8988a",
+        "logoURI": "/images/currencies/icons/default/crv.svg"
+    },
+    {
+        "name": "DaiStablecoin",
+        "chainId": 4002,
+        "symbol": "DAI",
+        "decimals": 18,
+        "address": "0xb33034986701e4eACB96EFB61dD52ADb06CeEa5C",
+        "logoURI": "/images/currencies/icons/default/dai.svg"
+    },
+    {
+        "name": "Enjin",
+        "chainId": 4002,
+        "symbol": "ENJ",
+        "decimals": 18,
+        "address": "0x0Eb4d22005b54c7C696fe30f7a6CD54dcA6F1853",
+        "logoURI": "/images/currencies/icons/default/enj.svg"
     }
 ]
