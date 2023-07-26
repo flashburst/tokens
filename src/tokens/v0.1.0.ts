@@ -737,5 +737,22 @@ export const tokens: TokenList['tokens'] = [
         "decimals": 18,
         "address": "0x14768943d76b44b9e89A52143a4727cd9F35b84F",
         "logoURI": "/images/currencies/icons/default/pla.svg"
+    },
+    {
+        "name": "Atlas Swap",
+        "chainId": 4002,
+        "symbol": "AS",
+        "decimals": 18,
+        "address": "0xBB2ae3942716756CF8948F3D141c78c6806E502b",
+        "logoURI": "/images/currencies/icons/default/as.svg"
+    },
+    {
+        "name": "Wrapped Bitcoin",
+        "chainId": 4002,
+        "symbol": "WBTC",
+        "decimals": 8,
+        "mintCap": 0.1,
+        "address": "0x1eeB8659fE24ba7E4949EEa0E8dfC20f9E87aAC9",
+        "logoURI": "/images/currencies/icons/default/btc.svg"
     }
 ]
