@@ -739,6 +739,15 @@ export const tokens: TokenList['tokens'] = [
         "logoURI": "/images/currencies/icons/default/pla.svg"
     },
     {
+        "name": "Wrapped Bitcoin",
+        "chainId": 4002,
+        "symbol": "WBTC",
+        "decimals": 8,
+        "mintCap": 0.1,
+        "address": "0x1eeB8659fE24ba7E4949EEa0E8dfC20f9E87aAC9",
+        "logoURI": "/images/currencies/icons/default/btc.svg"
+    },
+    {
         "name": "Atlas Swap",
         "chainId": 4002,
         "symbol": "AS",
@@ -747,12 +756,20 @@ export const tokens: TokenList['tokens'] = [
         "logoURI": "/images/currencies/icons/default/as.svg"
     },
     {
-        "name": "Wrapped Bitcoin",
+        "name": "USD Coin",
         "chainId": 4002,
-        "symbol": "WBTC",
-        "decimals": 8,
-        "mintCap": 0.1,
-        "address": "0x1eeB8659fE24ba7E4949EEa0E8dfC20f9E87aAC9",
-        "logoURI": "/images/currencies/icons/default/btc.svg"
+        "symbol": "USDC",
+        "decimals": 6,
+        "address": "0x0d958d23D8a995B3506ecc9631e38DE1Cf1bC856",
+        "logoURI": "/images/currencies/icons/default/usdc.svg"
+    },
+    {
+        "name": "USD Tether",
+        "chainId": 4002,
+        "symbol": "USDT",
+        "decimals": 18,
+        "mintCap": 2000,
+        "address": "0xA36f4bD047078881565e25433AA363DC1E1cBa9d",
+        "logoURI": "/images/currencies/icons/default/usdt.svg"
     }
 ]
