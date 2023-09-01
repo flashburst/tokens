@@ -864,9 +864,9 @@ export const tokens: TokenList['tokens'] = [
   {
     "name": "Atlas Swap",
     "chainId": 80001,
-    "symbol": "AS",
+    "symbol": "AT",
     "decimals": 18,
-    "address": "0x036d3F4fB6E2D1Cb88289ad809ABf87FDe7a65Fd",
+    "address": "0xF776111C20Da8280a85390c9FD37e04442cdCdb0",
     "logoURI": "https://tokens-atlasswap.vercel.app/images/currencies/icons/default/as.svg"
   },
   {
