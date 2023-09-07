@@ -1573,5 +1573,53 @@ export const tokens: TokenList['tokens'] = [
     "decimals": 18,
     "address": "0xf1B9Aaf6Ea2744c3e99CC57c258dD5187431cb69",
     "logoURI": "https://tokens-atlasswap.vercel.app/images/currencies/icons/default/pla.svg"
+  },
+  {
+    "name": "Crystalpool",
+    "chainId": 80001,
+    "symbol": "CRPOOL",
+    "decimals": 18,
+    "address": "0x4a9729073CcbCfC47f90F7375b781C01943Fdd6A",
+    "logoURI": "https: //tokens-atlasswap.vercel.app/images/currencies/icons/default/btc.svg"
+  },
+  {
+    "name": "Huobi",
+    "chainId": 80001,
+    "symbol": "HWT",
+    "decimals": 18,
+    "address": "0x1F32E4f2049BF680887b449185a3E7867814ecFF",
+    "logoURI": "https: //tokens-atlasswap.vercel.app/images/currencies/icons/default/btc.svg"
+  },
+  {
+    "name": "OBK",
+    "chainId": 80001,
+    "symbol": "OBK",
+    "decimals": 18,
+    "address": "0x4b7d5e198d7a2dEE31ff6f47ea9Cef778353B0d6",
+    "logoURI": "https: //tokens-atlasswap.vercel.app/images/currencies/icons/default/btc.svg"
+  },
+  {
+    "name": "SABRE",
+    "chainId": 80001,
+    "symbol": "SABRE",
+    "decimals": 18,
+    "address": "0x8103BEF2A7DaFDe1c754FFa6dE85946B9BB30f4E",
+    "logoURI": "https: //tokens-atlasswap.vercel.app/images/currencies/icons/default/btc.svg"
+  },
+  {
+    "name": "BEC",
+    "chainId": 80001,
+    "symbol": "BEC",
+    "decimals": 18,
+    "address": "0x16dB64E446C20486708048fcf97C1ecFe2f275cd",
+    "logoURI": "https: //tokens-atlasswap.vercel.app/images/currencies/icons/default/btc.svg"
+  },
+  {
+    "name": "XD",
+    "chainId": 80001,
+    "symbol": "XD",
+    "decimals": 18,
+    "address": "0xB01efcBaCd20237E46E55619131240e2ca0450C3",
+    "logoURI": "https: //tokens-atlasswap.vercel.app/images/currencies/icons/default/btc.svg"
   }
 ]
