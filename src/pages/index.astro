@@ -1,0 +1,59 @@
+---
+import { createTokenList, isValidURL } from "../utils";
+import * as tokenListParams from '../tokens/v0.1.0'
+const data: TokenList = createTokenList({ ...tokenListParams, site: Astro.site});
+
+const title = data.name;
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<title>{title}</title>
+
+		<link rel="stylesheet" href="/style.css" />
+	</head>
+	<body>
+		<h1>{title}</h1>
+
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Chain ID</th>
+				<th>Symbol</th>
+				<th>Decimals</th>
+				<th>Address</th>
+			</tr>
+			{
+				data.tokens.map((x) => {
+					const logoPathName = isValidURL(x.logoURI)
+						? new URL(x.logoURI).pathname
+						: "/favicon.svg";
+
+					return (
+						<tr>
+							<td>
+								<div class="token icon">
+									<span>
+										<img
+											src={logoPathName}
+											alt={x.name}
+											width="20"
+										/>
+									</span>
+									<span>{x.name}</span>
+								</div>
+							</td>
+							<td>{x.chainId}</td>
+							<td>{x.symbol}</td>
+							<td>{x.decimals}</td>
+							<td>{x.address}</td>
+						</tr>
+					);
+				})
+			}
+		</table>
+	</body>
+</html>
